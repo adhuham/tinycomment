@@ -3,7 +3,7 @@ Teeny tiny, PHP-based, easy-to-deploy comment system for static websites.
 
 # Installation
 1) Download the repo and extract it to the root of your website. (eg. https://yourwebsite.com/tinycomment/)
-2) Give appropriate permission to the /data/ folder. PHP user should be able to Read, Write and Execute in the folder.
+2) Give appropriate permission to the /data/ folder. Your server's PHP-User (www-data in Ubuntu/Debian) should be able to Read, Write and Execute in the folder.
 3) Put the below code snippet to your website:
 
 ```html
