@@ -1,5 +1,5 @@
 # TinyComment
-Teeny tiny, PHP-based, easy-to-deploy comment system for static websites.
+Teeny tiny, PHP-based, easy-to-deploy self-hosted comment system for static websites.
 
 # Installation
 1) Download the repo and extract it to the root of your website. (eg. https://yourwebsite.com/tinycomment/)
