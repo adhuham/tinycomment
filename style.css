@@ -1,0 +1,109 @@
+@charset 'utf-8';
+
+[data-tinycomment] {
+  font-family: inherit;
+}
+
+[data-tinycomment] .comment-form {
+  margin-top: 30px;
+}
+
+[data-tinycomment] .comment-form {}
+[data-tinycomment] .comment-form .form {
+  display: flex;
+  flex-direction: column;
+}
+[data-tinycomment] .comment-form .form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+[data-tinycomment] .comment-form .form div label {
+  font-family: inherit;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #777;
+}
+[data-tinycomment] .comment-form .form div input {
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+[data-tinycomment] .comment-form .form div textarea {
+  height: 100px;
+  font-family: inherit;
+  max-width: 100%;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+[data-tinycomment] .comment-form .form div input,
+[data-tinycomment] .comment-form .form div textarea {
+  padding: 10px 15px;
+  background: #f3f3f3;
+  color: #222;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-tinycomment] .comment-form .form div input:focus,
+[data-tinycomment] .comment-form .form div textarea:focus {
+  background: #FFF;
+  outline: none;
+  box-shadow: 0 0 0 2px #8eb4ff;
+}
+
+[data-tinycomment] .comment-form .form div button {
+  padding: 15px 10px;
+  margin-top: 10px;
+  background: #6497fb;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 0;
+  font-family: inherit;
+  transition: box-shadow 0.3s ease;
+}
+
+[data-tinycomment] .comment-form .form div button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #8eb4ff;
+}
+
+[data-tinycomment] .comment-list { 
+  margin-top: 40px;
+}
+
+[data-tinycomment] .comment-list article {
+  border: solid 1px #eee;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+[data-tinycomment] .comment-list article header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+[data-tinycomment] .comment-list article header p.name { 
+  margin: 0;
+  color: #222;
+  font-weight: bold;
+  font-size: 14px;
+}
+[data-tinycomment] .comment-list article header time { 
+  font-size: 11px;
+  color: #CCC;
+}
+[data-tinycomment] .comment-list article p.comment { 
+  margin: 0;
+  padding: 0 20px;
+  display: block;
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 15px;
+}
+
+
