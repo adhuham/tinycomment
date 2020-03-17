@@ -1,9 +1,16 @@
 # TinyComment
-Teeny tiny, PHP-based, easy-to-deploy self-hosted comment system for static websites.
+Teeny tiny, easy-to-deploy self-hosted PHP-based comment system for static websites.
 
 # Installation
 1) Download the repo and extract it to the root of your website. (eg. https://yourwebsite.com/tinycomment/)
-2) Give appropriate permission to the /data/ folder. Your server's PHP-User (www-data in Ubuntu/Debian) should be able to Read, Write and Execute in the folder.
+2) Give appropriate permission to the /data/ folder. The user that's running your server process (www-data in Ubuntu/Debian) should be able to Read, Write and Execute in the folder.
+
+You can use the following commands in Ubuntu/Debian based servers.
+  ```bash
+   cd /path/to/tinycomment/
+   sudo chown :www-data -R ./data/
+   sudo chmod g+rwx -R ./data/
+  ```
 3) Put the below code snippet to your website:
 
 ```html
@@ -12,13 +19,14 @@ Teeny tiny, PHP-based, easy-to-deploy self-hosted comment system for static webs
 ```
 Replace http://yourwebsite.com/tinycomment with the path you extracted the TinyComment in Step 1.
 
+## Deploying to a Sub-Domain
+You can deploy to a subdomain if for some reason you can't use your site's root. In that case replace https://yourwebsite.com/tinycomment with the subdomain (eg. https://tinycomment.yourwebsite.com/). Make sure you add appropriate Access Control headers to your web server. 
+
 # Contribution
 TinyComment is in very early stage of development. So any contribution is welcomed; no matter how small it is. But do keep the following in mind while contributing.
 1) We want the project to be small, so the number of files should be kept minimal.
 2) Any change you bring should not add any extra step for the user in the deployment process. We want the user to be able to just extract the files and get on with it.
 3) Use PSR-12 style guidelines.
-
-# To-Do
 
 # License
 Copyright (C) 2020 Mohamed Adhuham
