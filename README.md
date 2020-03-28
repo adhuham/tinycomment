@@ -28,7 +28,7 @@ TinyComment is in very early stage of development. So any contribution is welcom
 2) Any change you bring should not add any extra step for the user in the deployment process. We want the user to be able to just extract the files and get on with it.
 3) Use PSR-12 style guidelines.
 
-Below to-do list highlights the feature we want to be developed.
+The todo list below highlights the features we want to be developed.
 
 # Todo
 * [ ] Moderation page where the website author can see all the comments and moderate them
