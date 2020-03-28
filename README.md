@@ -20,13 +20,22 @@ You can use the following commands in Ubuntu/Debian based servers.
 Replace http://yourwebsite.com/tinycomment with the path you extracted the TinyComment in Step 1.
 
 ## Deploying to a Sub-Domain
-You can deploy to a subdomain if for some reason you can't use your site's root. In that case replace https://yourwebsite.com/tinycomment with the subdomain (eg. https://tinycomment.yourwebsite.com/). Make sure you add appropriate Access Control headers to your web server. 
+You can also deploy to a subdomain (if you can't do it in your site's root.) In that case replace all the instances of https://yourwebsite.com/tinycomment with your subdomain (eg. https://tinycomment.yourwebsite.com/). Make sure you add appropriate ``Access Control`` headers to your web server's configuration. 
 
 # Contribution
 TinyComment is in very early stage of development. So any contribution is welcomed; no matter how small it is. But do keep the following in mind while contributing.
 1) We want the project to be small, so the number of files should be kept minimal.
 2) Any change you bring should not add any extra step for the user in the deployment process. We want the user to be able to just extract the files and get on with it.
 3) Use PSR-12 style guidelines.
+
+Below to-do list highlights the feature we want to be developed.
+
+# Todo
+[ ] Moderation page where the website author can see all the comments and moderate them
+[ ] Reply feature for the comments
+[ ] Option to send email notifications to the website owner once a comment is recieved
+[ ] Option to only allow comments after moderation
+[ ] Ability to add more fields to the comment form (website, email, twitter handle)
 
 # License
 Copyright (C) 2020 Mohamed Adhuham
