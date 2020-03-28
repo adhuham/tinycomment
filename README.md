@@ -31,11 +31,11 @@ TinyComment is in very early stage of development. So any contribution is welcom
 Below to-do list highlights the feature we want to be developed.
 
 # Todo
-[ ] Moderation page where the website author can see all the comments and moderate them
-[ ] Reply feature for the comments
-[ ] Option to send email notifications to the website owner once a comment is recieved
-[ ] Option to only allow comments after moderation
-[ ] Ability to add more fields to the comment form (website, email, twitter handle)
+* [ ] Moderation page where the website author can see all the comments and moderate them
+* [ ] Reply feature for the comments
+* [ ] Option to send email notifications to the website owner once a comment is recieved
+* [ ] Option to only allow comments after moderation
+* [ ] Ability to add more fields to the comment form (website, email, twitter handle)
 
 # License
 Copyright (C) 2020 Mohamed Adhuham
